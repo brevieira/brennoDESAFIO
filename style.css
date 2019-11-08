@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body{
-	background:url();
+	background:url(https://static1.purebreak.com.br/articles/2/88/37/2/@/334756-a-4-temporada-de-stranger-things-pode-opengraph_1200-1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color:black;
@@ -111,17 +111,23 @@ li{
 
 
 
-
 .scnDOIS{
+	background-image:linear-gradient(90deg,black,transparent);
+	width:100%;
+	height:93vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.divTRES{
 	height: 75vh;
-	width: 100vh;
-	background-color: transparent;
-	margin: 30px;
+	width: 55vw;
+	background-image:linear-gradient(90deg,black,transparent);
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
-.divTRES{
+.divQUATRO{
 	display:flex;
 	align-items: center;
 	justify-content: center;
@@ -136,7 +142,7 @@ li{
 .sts{
 	width: 80%;
 }
-.divQUATRO{
+.divCINCO{
 	margin: 20px;
 	width: 80%;
 }
@@ -145,16 +151,16 @@ li{
 	justify-content: space-around;
 }
 .verde{
-	font-size: 20px;
+	font-size: 25px;
 	color: #ADFF2F;
 }
 .ano{
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 }
 .BQ{
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: white;
@@ -162,5 +168,5 @@ li{
 .text{
 	margin: 20px;
 	color: white;
-	font-size: 20px;
+	font-size: 30px;
 }
