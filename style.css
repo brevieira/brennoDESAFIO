@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body{
-	background:url(https://static1.purebreak.com.br/articles/2/88/37/2/@/334756-a-4-temporada-de-stranger-things-pode-opengraph_1200-1.jpg);
+	background:url(https://observatoriodocinema.bol.uol.com.br/wp-content/uploads/2019/09/cropped-stranger-things-season-3-2019-ni-4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color:black;
@@ -69,8 +69,6 @@ li{
 	display: flex;
 	align-items: center;
 	padding: 3%;
-	position: relative;
-	right: 180px;
 }
 .imgSINO{
     height: 50px;
@@ -86,6 +84,13 @@ li{
 	align-items: center;
 	padding: 3%;
 }
+.triangulo{
+	width: 0; 
+ 	height: 0; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid white;
+}
 .busca{
 	color: white;
   	background-color:transparent;
@@ -94,6 +99,7 @@ li{
   	border-color: transparent;
   	height:22px;
   	width:260px;
+  	display: contents;
 }
 .lupa{
 	height: 65%;
@@ -169,4 +175,21 @@ li{
 	margin: 20px;
 	color: white;
 	font-size: 30px;
+}
+.divSEIS{
+	margin: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+h2{ 
+	height: 50px;
+	width: 150px;
+	color: white;
+	background:rgba(0, 0, 0, 0.7);
+	border-radius: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
 }
