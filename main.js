@@ -6,3 +6,4 @@ console.log('busca')
 lupa.addEventListener('click', function(){
 	busca.style.display = 'flex'
 })
+

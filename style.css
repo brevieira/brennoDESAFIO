@@ -4,10 +4,7 @@
 	box-sizing: border-box;
 }
 body{
-	background:url(https://observatoriodocinema.bol.uol.com.br/wp-content/uploads/2019/09/cropped-stranger-things-season-3-2019-ni-4.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color:black;
+background-color: white;
 }
 .scnUM{
 	background-color: #1C1C1C;
@@ -69,6 +66,8 @@ li{
 	display: flex;
 	align-items: center;
 	padding: 3%;
+	display: flex;
+	flex-direction: row-reverse;
 }
 .imgSINO{
     height: 50px;
@@ -96,7 +95,7 @@ li{
   	background-color:transparent;
   	border-style: solid;
   	border-width: 1px;
-  	border-color: transparent;
+  	border-color: white;
   	height:22px;
   	width:260px;
   	display: contents;
@@ -119,8 +118,12 @@ li{
 
 .scnDOIS{
 	background-image:linear-gradient(90deg,black,transparent);
+	background:url(https://www.animefestival.de/img/uploads/program/cd4a3439b523e5d2eef7bad443ddbd84_The-Seven-Deadly-Sins-Prisoners-of-the-Sky.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:black;
 	width:100%;
-	height:93vh;
+	height:100vh;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -190,6 +193,91 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
 
 
+
+
+.scnTRES{
+	width:100%;
+	height:200vh;
+	display: flex;
+	flex-direction: column;
+
+}
+.listaSERIE{
+	width:100%;
+	height:120vh;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.serie{
+	width:100%;
+	height:30vh;
+	background-color: red;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.stranger{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.okja{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.narcos{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.order{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.capitao{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.vingadores{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.velozes{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.furiosos{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.naruto{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.nanatsu{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.baki{
+	height: 100%;
+	width: 24%;
+	display: flex;
+}
+.shippuden{
+	height: 100%;
+	width: 24%;
+	display: flex;
 }
